@@ -7,6 +7,7 @@ import { SiExpress } from "react-icons/si";
 import {motion} from "framer-motion"
 import { IoLogoJavascript } from "react-icons/io5";
 
+
 const iconVariants=(duration)=>({
 initial:{y:-10},
 animate:{
