@@ -1,6 +1,6 @@
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
-import {FaSquareXTwitter} from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
 import {useState} from "react"
 
 
@@ -51,7 +51,7 @@ color:hover===iconName?getColor(iconName):'inherit'
     onMouseOver={()=>sethover('twitter')}
     onMouseLeave={()=>sethover(null)}
     style={iconStyle('twitter')}>
-    <FaSquareXTwitter/>
+    <FaTwitter/>
     </a>
   
     </div>
