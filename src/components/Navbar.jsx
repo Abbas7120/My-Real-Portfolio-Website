@@ -1,6 +1,5 @@
-import {FaLinkedin} from "react-icons/fa";
-import {FaGithub} from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+
 import {useState} from "react"
 
 
