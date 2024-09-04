@@ -1,4 +1,4 @@
-import { RiReactjsLine } from "react-icons/ri";
+import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiMongodb } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
@@ -39,7 +39,7 @@ const Technologies=()=> {
     initial="initial"   
  animate="animate"
     className="rounded-2xl border-4 border-orange-500 p-4">
-<RiReactjsLine className="text-7xl text-blue-700"/>
+<FaReact className="text-7xl text-blue-700"/>
       </motion.div>  
       
       <motion.div 
