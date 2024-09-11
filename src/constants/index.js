@@ -30,22 +30,22 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional job portal website with features like job listing of city MALLS , Showrooms areas & connecting local shopkeepers , showroom owner with unemployed poor graduates .",
-    technologies: ["HTML", "CSS","JS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML","CSS","JS","React","NodeJS","MongoDB"],
     },
   {
     title: "Personal Portfolio Website",
     image: project2,
     description:
       "A responsive portfolio with sections such as Home, About, Contact and Projects.",
-    technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS" , "MaterialUI"],
-  link:"https://reactflashcard.vercel.app/"
+    technologies: ["HTML","CSS","ReactJS","TailwindCSS" ,"MaterialUI"],
+  link:"https://portfolioabbas.vercel.app/"
   },
   {
     title: "Node Hotel App - Backend",
     image: project3,
     description:
       "A node hotel app Backend which consist of feature like showing menu , authorization of users as chef or waiter",
-    technologies: ["JWT", "MongoDB", "Express", "NodeJS"],
+    technologies: ["JWT","MongoDB","Express","NodeJS"],
     link:"https://node-hotel-application-kddq.onrender.com"
   },
   {
@@ -53,7 +53,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A basic tic-tac-toe game where 2 players play gamee with each other",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML","CSS","JavaScript"],
      link: "https://abbas7120.github.io/Tic-Tac-Toe/"
   },
 ];
