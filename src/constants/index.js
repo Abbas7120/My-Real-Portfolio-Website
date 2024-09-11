@@ -1,7 +1,7 @@
-import project1 from "../pics/projects/1.png";
-import project2 from "../pics/projects/2.png";
+import project1 from "../pics/projects/UrbanJobs1.png";
+import project2 from "../pics/projects/1.png";
 import project3 from "../pics/projects/3.png";
-import project4 from "../pics/projects/project1.jpeg";
+import project4 from "../pics/projects/2.png";
 
 export const HERO_CONTENT = `MERN stack developer with expertise in full-stack web development. Proficient in building dynamic web applications using MongoDB, Express.js, React, and Node.js.Have a strong skill in DSA in C++, and problem-solving.Passionate about delivering high-quality software solutions and continuously learning new technologies. `;
 
@@ -31,20 +31,22 @@ export const PROJECTS = [
     description:
       "A fully functional job portal website with features like job listing of city MALLS , Showrooms areas & connecting local shopkeepers , showroom owner with unemployed poor graduates .",
     technologies: ["HTML", "CSS","JS", "React", "Node.js", "MongoDB"],
-  },
+    },
   {
     title: "Personal Portfolio Website",
     image: project2,
     description:
       "A responsive portfolio with sections such as Home, About, Contact and Projects.",
     technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS" , "MaterialUI"],
+  link:"https://reactflashcard.vercel.app/"
   },
   {
-    title: "Voting App - Backend",
+    title: "Node Hotel App - Backend",
     image: project3,
     description:
-      "A voting app Backend which consist of feature like voting a candidate , total user counting who vote to a particular party , user authentication , all candidate votes are managed by admin",
+      "A node hotel app Backend which consist of feature like showing menu , authorization of users as chef or waiter",
     technologies: ["JWT", "MongoDB", "Express", "NodeJS"],
+    link:"https://node-hotel-application-kddq.onrender.com"
   },
   {
     title: "Tic-Tac-Toe",
@@ -52,6 +54,7 @@ export const PROJECTS = [
     description:
       "A basic tic-tac-toe game where 2 players play gamee with each other",
     technologies: ["HTML", "CSS", "JavaScript"],
+     link: "https://abbas7120.github.io/Tic-Tac-Toe/"
   },
 ];
 
