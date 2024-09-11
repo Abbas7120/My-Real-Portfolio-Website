@@ -60,5 +60,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Jankipuram , Lucknow , Uttar Pradesh , India ",
-  email: "abbasfzd118@gmail.com",
+  email: "abbasayd110@gmail.com",
 };
