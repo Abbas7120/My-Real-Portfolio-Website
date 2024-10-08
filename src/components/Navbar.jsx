@@ -5,8 +5,10 @@ import {useState} from "react"
 
 
 const Navbar=()=> {
+
    const [hover,sethover]=useState(null)
-const iconStyle=(iconName)=>({
+
+  const iconStyle=(iconName)=>({
 color:hover===iconName?getColor(iconName):'inherit'
 })
    const getColor=(iconName)=>{
@@ -20,14 +22,7 @@ color:hover===iconName?getColor(iconName):'inherit'
    
   return (
     <nav className=" mb-20 flex items-center justify-between py-6 relative lg:mb-0 lg:pb-0">
-    
-     
-    
-        
-        <div className="flex flex-shrink-0 items-center ">
-
-   
-
+  <div className="flex flex-shrink-0 items-center ">
 </div>
 
 

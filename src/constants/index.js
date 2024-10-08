@@ -31,6 +31,7 @@ export const PROJECTS = [
     description:
       "A fully functional job portal website with features like job listing of city MALLS , Showrooms areas & connecting local shopkeepers , showroom owner with unemployed poor graduates .",
     technologies: ["HTML","CSS","JS","React","NodeJS","MongoDB"],
+    link:"https://urbanjobs.netlify.app/"
     },
   {
     title: "Personal Portfolio Website",
