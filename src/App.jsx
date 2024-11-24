@@ -2,7 +2,6 @@
 
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
-
 import About from "./components/About"
 import Technologies from "./components/Technologies"
 import Experience from "./components/Experience"
@@ -13,10 +12,12 @@ import Contact from "./components/Contact"
 import { createBrowserRouter, RouterProvider,Route } from 'react-router-dom'
 //import { GrTechnology } from "react-icons/gr"
 const App=()=> {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
     {
       path: "/",
-      element: <>
+      element: 
+      <>
     <Navbar />
       </>
     },
