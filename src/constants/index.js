@@ -7,23 +7,25 @@ export const HERO_CONTENT = `MERN stack developer with expertise in full-stack w
 
 export const ABOUT_TEXT = `Experienced MERN stack developer with a strong foundation in both frontend and backend technologies. Proficient in building dynamic web applications using MongoDB, Express.js, React, and Node.js. Adept at designing and implementing scalable and secure server-side solutions, as well as creating intuitive and responsive user interfaces. Additionally, skilled in Data Structures and Algorithms (DSA) using C++, with experience in solving complex problems through efficient code. Passionate about delivering high-quality software solutions and continuously learning new technologies.`
 
-/*export const EXPERIENCES = [
+export const EXPERIENCES = [
   {
-    year: "2022 - Present",
+    year: "MAY 2023 - NOVEMBER 2023",
     role: "Graphic Designer",
     company: "Brain Bytes",
     description: `Led a team in developing and maintaining web design and Graphics using CANVA . Helps to reach 1K+ followers on all social media platform`,
-    technologies: ["Bootstrap","Tailwind", "React.js", "Figma","CANVA"],
+    technologies: ["LeonardoAI", "ChatGPT", "Figma","CANVA"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "NA",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "JANUARY 2025 - APRIL 2025",
+    role: "Web Developer",
+    company: "Labdox",
+    description: `Collaborated on live web development projects, contributing to all stages of the development life cycle. Designed user-driven templates, databases, and interfaces while developing and maintaining website
+functionalities.Integrated APIs, automated web tools, and worked with UI/UX designers to enhance user experience and
+business productivity.`,
+    technologies: ["HTML", "CSS", "JS", "WIX", "Figma"],
   },
   
-];*/
+];
 
 export const PROJECTS = [
   {
@@ -43,22 +45,7 @@ export const PROJECTS = [
     technologies: ["HTML","CSS","ReactJS","TailwindCSS" ,"MaterialUI"],
   link:"https://portfolioabbas.vercel.app/"
   },
-  {
-    title: "Node Hotel App - Backend",
-    image: project3,
-    description:
-      "A node hotel app Backend which consist of feature like showing menu , authorization of users as chef or waiter",
-    technologies: ["JWT","MongoDB","Express","NodeJS"],
-    link:"https://node-hotel-application-kddq.onrender.com"
-  },
-  {
-    title: "Tic-Tac-Toe",
-    image: project4,
-    description:
-      "A basic tic-tac-toe game where 2 players play gamee with each other",
-    technologies: ["HTML","CSS","JavaScript"],
-     link: "https://abbas7120.github.io/Tic-Tac-Toe/"
-  },
+  
 ];
 
 export const CONTACT = {
