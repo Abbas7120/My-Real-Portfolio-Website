@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
-
+import {ToastContainer} from 'react-toastify'
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
@@ -37,7 +37,7 @@ const App = () => {
       <Projects />
       <Experience/>
       <Contact />
-
+<ToastContainer/>
     </div>
   );
 };
