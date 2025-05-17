@@ -4,7 +4,9 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import {ToastContainer} from 'react-toastify'
 import Projects from "./components/Projects";
-import Experience from "./components/Experience";
+import {ThreeDCardDemo}  from "./components/Projects3";
+
+
 import Contact from "./components/Contact";
 
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
@@ -34,8 +36,9 @@ const App = () => {
       <Hero />
       <About />
       <Technologies />
-      <Projects />
-      <Experience/>
+      <Projects/>
+ <ThreeDCardDemo/>
+
       <Contact />
 <ToastContainer/>
     </div>

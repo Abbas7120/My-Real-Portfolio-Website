@@ -2,7 +2,7 @@ import project1 from "../pics/projects/UrbanJobs1.png";
 import project2 from "../pics/projects/1.png";
 import project3 from "../pics/projects/3.png";
 import project4 from "../pics/projects/2.png";
-
+import internship2 from '../pics/Internship1.png'
 export const HERO_CONTENT = `MERN stack developer with expertise in full-stack web development. Proficient in building dynamic web applications using MongoDB, Express.js, React, and Node.js.Have a strong skill in DSA in C++, and problem-solving.Passionate about delivering high-quality software solutions and continuously learning new technologies. `;
 
 export const ABOUT_TEXT = `Experienced MERN stack developer with a strong foundation in both frontend and backend technologies. Proficient in building dynamic web applications using MongoDB, Express.js, React, and Node.js. Adept at designing and implementing scalable and secure server-side solutions, as well as creating intuitive and responsive user interfaces. Additionally, skilled in Data Structures and Algorithms (DSA) using C++, with experience in solving complex problems through efficient code. Passionate about delivering high-quality software solutions and continuously learning new technologies.`
@@ -23,6 +23,22 @@ export const EXPERIENCES = [
 functionalities.Integrated APIs, automated web tools, and worked with UI/UX designers to enhance user experience and
 business productivity.`,
     technologies: ["HTML", "CSS", "JS", "WIX", "Figma"],
+  },
+  
+];
+
+export const Certificate = [
+  {
+    year: "MAY 2023 - NOVEMBER 2023",
+    role: "Graphic Designer",
+    company: "Brain Bytes",
+    
+  },
+  {
+    year: "JANUARY 2025 - APRIL 2025",
+    role: "Web Developer",
+    company: "Labdox",
+  image:internship2
   },
   
 ];
